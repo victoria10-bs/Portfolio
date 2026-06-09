@@ -7,4 +7,5 @@ export default defineConfig({
     react(),
     tailwindcss(), // <-- Esto activa Tailwind v4 de forma nativa en Vite
   ],
+  base: '/Portfolio/',
 })
