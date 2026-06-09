@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/* 1. ESTILOS GLOBALES BASE */
+html{
+  scroll-behavior: smooth;
+}
+
+/* From Uiverse.io by adamgiebl */
+#inicio, #proyectos, body {
+  width: 100%;
+  height: 100%;
+  --color: rgba(114, 114, 114, 0.3);
+  background-color: #191a1a;
+  background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%,transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%,transparent);
+  background-size: 55px 55px;
+
+}
+
+/* Contenedor principal para centrar el diseño */
+/* .portfolio-contenedor {
+  margin: 0 auto;
+  padding: 0 1.5rem;
+} */
+
+/* 2. BARRA DE NAVEGACIÓN (NAVBAR) */
+/* .portfolio-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1.5rem 0; */
+   /* border-bottom: 1px solid #191a1a; borde sutil slate-800 */
+  /* width: 100%;
+  padding: 0 24px;
+  color: azure;
+} */
+
+/* .portfolio-logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #22d3ee; /* Color Cyan llamativo */
+/* } */
+/*
+.portfolio-navbar ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-navbar a {
+  color: #94a3b8;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.portfolio-navbar a:hover {
+  color: #22d3ee;
+}
+
+/* Iconos de redes sociales */
+/* #inicio div > div {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+#inicio a {
+  color: #64748b;
+  transition: color 0.2s, transform 0.2s;
+} */
+
