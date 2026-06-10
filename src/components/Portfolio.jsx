@@ -77,7 +77,7 @@ export default function Portfolio() {
       <div className="flex flex-col  overflow-hidden rounded-xl border border-gray-100 dark:border-gray-800 shadow-sm bg-white dark:bg-gray-950 transition-all duration-300 hover:shadow-md hover:-translate-y-1">
         {/* Imagen del proyecto */}
         <div className="aspect-video w-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-400">
-          <img alt="Miniatura del proyecto" src="../assets/img/ecommerce.png" className="w-full h-70 object-cover"/>
+          <img alt="Miniatura del proyecto" src="../../img/ecommerce.png" className="w-full h-70 object-cover"/>
         </div>
         {/* Contenido de la Card */}
         <div className="flex flex-1 flex-col justify-between p-6">
