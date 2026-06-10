@@ -20,7 +20,7 @@ export default function Portfolio() {
       {/* Columna Izquierda: Tu Foto o un Diseño */}
       <div className="relative aspect-square max-w-sm mx-auto bg-gradient-to-tr from-blue-600 to-cyan-400 rounded-2xl shadow-xl overflow-hidden flex items-center justify-center text-white font-bold text-xl">
         {/* Aquí puedes reemplazar este div por una etiqueta <img src="..." alt="Tu foto" /> */}
-        <img src="vik.png" alt=""/>
+        <img src="img/vik.png" alt=""/>
       </div>
 
       {/* Columna Derecha: Texto */}
