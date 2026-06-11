@@ -38,7 +38,7 @@ export default function Portfolio() {
         {/* 📄 BOTÓN PARA DESCARGAR EL CV */}
       <div className="mt-8 flex justify-start">
         <a
-          href="/CV_Maria_Victoria_Schneider.pdf" /* Ruta directa a la carpeta public */
+          href="./CV_Maria_Victoria_Schneider.pdf" /* Ruta directa a la carpeta public */
           download="CV_Maria_Victoria_Schneider.pdf" /* Atributo que fuerza la descarga automática */
           className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-xl shadow-lg hover:shadow-blue-500/20 transform hover:-translate-y-0.5 transition-all duration-200"
         >
